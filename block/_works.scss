@@ -1,0 +1,61 @@
+.neft_brends {
+    width: 1300px;
+    height: 210px;
+    margin: auto;
+    // border: 1px solid red;
+    
+    &_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+        color: #000;
+
+    }
+
+    &_title span {
+        color: #DBA833;
+    }
+
+    &_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #5B5B5B;
+    }
+
+    &_logos {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    &_logo_1 {
+        width: 247px;
+        height: 76px;
+    }
+
+    &_logo_2 {
+        width: 122px;
+        height: 73px;
+    }
+
+    &_logo_3 {
+        width: 146px;
+        height: 75px;
+    }
+
+    &_logo_4 {
+        width: 214px;
+        height: 67px;
+    }
+
+    &_logo_5 {
+        width: 298px;
+        height: 87px;
+    }
+}

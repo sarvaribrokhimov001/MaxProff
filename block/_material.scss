@@ -1,0 +1,33 @@
+    .geographic_place {
+        width: 1400px;
+        height: 760px;
+        // border: 1px solid red;
+        margin: auto;
+        margin-top: 100px;
+        background-image: url(../images/bg_img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    &_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+        color: #000000;
+        padding-top: 20px;
+    }
+
+    &_title span {
+        color: #DBA833;
+    }
+
+    &_map {
+        width: 1200px;
+        height: 550px;
+        border: 4px dashed #DBA833;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+}

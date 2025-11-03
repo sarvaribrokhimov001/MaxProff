@@ -1,0 +1,144 @@
+.footer {
+   width: 1700px;
+   height: 265px;
+   margin: 30px auto;
+
+
+   &_cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // gap: 20px;
+   }
+
+   &_card {
+      display: flex;
+      margin: 30px auto;
+   }
+
+   &_logo {
+      width: 100px;
+      height: 94px;
+   }
+
+   &_logo_texts {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 10px;
+   }
+
+   &_logo_text_1 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #DBA833;
+   }
+
+   &_logo_text_2 {
+      width: 406px;
+      height: 30px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #DBA833;
+   }
+
+   &_logo_text_3 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #DBA833;
+   }
+
+   &_logo_text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #5B5B5B;
+   }
+
+   &_card_1 {
+      width: 175px;
+      height: 86px;
+      border-radius: 10px;
+      border: 2px solid #B6B6B6;
+      margin-top: 30px;
+   }
+
+   &_card_1_icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+      padding-top: 10px;
+   }
+
+   &_card_1_text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #B6B6B6;
+      text-align: center;
+   }
+
+   &_line {
+      width: 1700px;
+      height: 0px;
+      border: 1px dashed #979797;
+   }
+
+   &_texts {
+      display: flex;
+      gap: 30px;
+      margin-top: 20px;
+   }
+
+   &_text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #5B5B5B;
+      margin-left: 100px;
+   }
+
+   &_icons {
+      display: flex;
+      position: relative;
+      top: 20px;
+      left: 660px;
+      gap: 20px;
+   }
+
+   &_icon_text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+
+
+   }
+
+   &_icon_img {
+      width: 33px;
+      height: 33px;
+   }
+
+   &_conclusion {
+      display: flex;
+   }
+}
